@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  background-color: #D80E64;
+}
+h1{color: #fff;}
+h2{
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+#order, #cash{
+  height: 50px;
+  width: 200px;
+  border: 2px solid white;
+  background-color: #FF4C96;
+  border-radius: 10px;
+  text-align: center;
+ 
+  font-size: 30px;
+}
+#order::placeholder{
+  color: #fff;
+}
+#cash::placeholder {
+  color: #fff;
+}
+#change{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10px;
+}
+.cash-btn{
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #D80E64;
+  font-size: 25px;
+  border: 1px solid white;
+}
+.center{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.short-label {
+  color: red;
+  background-color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#reset{
+  height: 50px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+}

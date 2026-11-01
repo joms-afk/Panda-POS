@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sstyle.css">
+    <title>Panda POS</title>
+</head>
+<body>
+
+    <h1>🐼 Panda Calculator</h1>
+
+    <h2>ORDER</h2>
+    <input type="number" id="order" placeholder="0.00" readonly>
+
+    <h2>CASH</h2>
+    <input type="number" id="cash" placeholder="0.00" readonly>
+
+    <h2>CHANGE</h2>
+    <p id="change">0.00</p>
+
+    <div>
+    <h2>Cash Denominations</h2>
+
+    <button class="cash-btn" data-value="1">1</button>
+    <button class="cash-btn center" data-value="5">5</button>
+    <button class="cash-btn" data-value="10">10</button>
+
+    <br><br>
+
+    <button class="cash-btn" data-value="20">20</button>
+    <button class="cash-btn center" data-value="50">50</button>
+    <button class="cash-btn" data-value="100">100</button>
+
+    <br><br>
+
+    <button class="cash-btn" data-value="200">200</button>
+    <button class="cash-btn center" data-value="500">500</button>
+    <button class="cash-btn" data-value="1000">1000</button>
+    
+    <button id="reset">RESET</button>
+    </div>
+    
+    <br><br>
+    <a href="https://joms-afk.github.io/panda-auto-calculate/">Remit Calculator</a>
+  
+
+    <script src="script.js"></script>
+
+</body>
+</html>
